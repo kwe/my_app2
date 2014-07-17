@@ -1,4 +1,5 @@
 ActiveAdmin.register Picture do
+  permit_params :filename, :caption
 
   
   # See permitted parameters documentation:
